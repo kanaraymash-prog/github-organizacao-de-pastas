@@ -98,22 +98,98 @@ academics/                # Geral academics topics
 │
 ---------
 
+├── open-source/                    # ── CONTRIBUIÇÕES EXTERNAS ──
+│   ├── contributions.md               # lista de PRs aceitos
+│   ├── forks/                         # submodules de forks
+│   ├── patches/                       # .patch arquivados
+│   └── issues-reproductions/          # MVCEs de bugs reportados
 
 ---------
+diary/                          # ── DIÁRIO PESSOAL / LOG ──
+│   ├── README.md
+│   ├── 2024/
+│   ├── 2025/
+│   ├── 2026/
+│   ├── daily/                         # daily notes (YYYY-MM-DD.md)
+│   ├── weekly/
+│   ├── retro/                         # retrospectivas
+│   └── journaling-templates/
+---------
+├── 15-languages/                      # ── IDIOMAS FALADOS (POLIGLOTA) ──
+│   ├── README.md
+│   ├── portugues/
+│   ├── ingles/
+│   ├── espanhol/
+│   ├── frances/
+│   ├── alemao/
+│   ├── italiano/
+│   ├── japones/
+│   ├── mandarim/
+│   ├── russo/
+│   ├── arabe/
+│   ├── coreano/
+│   ├── latim/
+│   └── _template-idioma/  
+---------
+├── ai/                             # ── IA / PROGRAMAÇÃO ASSISTIDA ──
+│   ├── ai-assisted-coding/            # workflows com Copilot, Cursor, Aider
+│   ├── prompts/                       # biblioteca de prompts
+│   ├── llm-labs/
+│   ├── ml/                            # scikit, torch, tf (notebooks)
+│   ├── datasets/
+│   ├── agents/
+│   ├── rag/
+│   └── fine-tuning/
+---------
+├── cli-and-tools/                  # ── CLI, DOTFILES, FERRAMENTAS ──
+│   ├── dotfiles/                      # bashrc, zshrc, vimrc, ...
+│   ├── neovim/                        # config + plugins (Lua)
+│   ├── bash/
+│   ├── zsh/
+│   ├── fish/
+│   ├── tmux/
+│   ├── wezterm/
+│   ├── scripts/                       # automação (backup, sync, ...)
+│   ├── cli-apps/                      # apps que VOCÊ criou em CLI
+│   └── poweruser/                     # fzf, ripgrep, fd, bat, eza
+│
 
 ---------
-
+├── 11-databases/                      # ── BANCO DE DADOS ──
+│   ├── mysql/
+│   ├── postgresql/
+│   ├── mongodb/
+│   ├── redis/
+│   ├── sqlite/
+│   ├── cassandra/
+│   ├── elasticsearch/
+│   ├── dbeaver/                       # scripts, conexões, modelagem
+│   ├── modelagem/                     # MER, DDL, DER
+│   └── migrations/
 ---------
-
+for-recruiters/                 # ── PARA RECRUTADOR ──
+│   ├── README.md                      # "comece por aqui, recrutador"
+│   ├── resume/                        # PDFs, .tex, .md
+│   ├── case-studies/                  # estudo de caso de cada projeto
+│   ├── skills-matrix.md               # matriz de habilidades (nível por tech)
+│   ├── demos/                         # links de deploy, vídeos, GIFs
+│   ├── testimonials/                  # depoimentos (professores, clientes)
+│   ├── availability.md                # disponibilidade p/ estágio/júnior
+│   └── contact.md
 ---------
-
-
----------
-
----------
-
----------
-
+├── 00-identity/                       # ── QUEM VOCÊ É ──
+│   ├── README.md                      # bio multilíngue
+│   ├── cv/                            # currículo por idioma/versão
+│   │   ├── pt-BR/
+│   │   ├── en/
+│   │   ├── es/
+│   │   ├── fr/
+│   │   └── de/
+│   ├── portfolio/                     # site pessoal / vitrine
+│   ├── certificates/                  # certificados (AWS, Cisco, Coursera, ...)
+│   ├── badges/                        # shields.io, credly, etc.
+│   ├── photos/
+│   └── links.md                       # LinkedIn, site, email, gists
 ---------
 
 
