@@ -39,8 +39,6 @@ academics/                # Geral academics topics
 
 
 
-
-
 ---------
 
 
