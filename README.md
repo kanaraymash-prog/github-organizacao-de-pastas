@@ -33,6 +33,31 @@ academics/                # Geral academics topics
 
 
 
+├── practice/                       # Estudos livres e treino técnico (antigo "activities")
+│   └── programming/                # Área de programação
+│       ├── python/                 # Linguagem
+│       │   ├── fundamentals/       # Conceitos básicos (loops, condicionais)
+│       │   │   ├── loops/          # Aqui entram seus testes de "for" e "while"
+│       │   │   ├── conditionals/   # Testes de "if/else"
+│       │   │   └── functions/
+│       │   ├── data-structures/    # Listas, dicionários, árvores
+│       │   └── oop/                # Programação Orientada a Objetos
+│       ├── sql/
+│       └── javascript/
+│
+
+
+
+
+
+
+
+---------
+
+
+
+
+
 ---------
 
 
