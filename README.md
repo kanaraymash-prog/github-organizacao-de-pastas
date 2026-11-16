@@ -6,37 +6,38 @@ Parte com as atividades da faculdade(s) e cursos de formação, bootcamps, monit
 - programador poliglota 
 
 --------
-academics/                # Geral academics topics
-    unb/
-    ceub/
-    mit/
-    oxford/
-    harvard/                  #University
-            software-engineer/              # degree/major name
-                        semester-01/     #semester
-                        semester-02/
-                        semester-03/
-                        ...
-                        semester-08/
-                                    database/         #Course name
-                                    devops/
-                                    docker/
-                                    gnu-linux/
-                                    devsecops/
+├── 02-academic/                       # ── ATIVIDADES DA FACULDADE (CC) ──   # Geral academics topics
+    ├── unb/                           # University
+    ├── ceub/
+    ├── mit/
+    ├── oxford/
+    └── harvard/
+        └── software-engineer/         # degree/major name
+            ├── semester-01/           # semester
+            │   ├── database/          # Course name
+            │   ├── devops/
+            │   ├── docker/
+            │   ├── gnu-linux/
+            │   └── devsecops/
+            ├── semester-02/
+            ├── semester-03/
+            ├── ...
+            └── semester-08/
+ 
 ---------
 
 ├── practice/    {Exercícios para treinar} # Estudos livres e treino técnico (antigo "activities")
-│   └── programming/                # Área de programação
-│       ├── python/                 # Linguagem
-│       │   ├── fundamentals/       # Conceitos básicos (loops, condicionais)
-│       │   │   ├── loops/          # Aqui entram seus testes de "for" e "while"
-│       │   │   ├── conditionals/   # Testes de "if/else"
-│       │   │   └── functions/
-│       │   ├── data-structures/    # Listas, dicionários, árvores
-│       │   └── oop/                # Programação Orientada a Objetos
-│       ├── sql/
-│       └── javascript/
-│
+    └── programming/                # Área de programação
+        ├── python/                 # Linguagem
+        │   ├── fundamentals/       # Conceitos básicos (loops, condicionais)
+        │   │   ├── loops/          # Aqui entram seus testes de "for" e "while"
+        │   │   ├── conditionals/   # Testes de "if/else"
+        │   │   └── functions/
+        │   ├── data-structures/    # Listas, dicionários, árvores
+        │   └── oop/                # Programação Orientada a Objetos
+        ├── sql/
+        └── javascript/
+
 
 
 ---------
@@ -115,7 +116,7 @@ diary/                          # ── DIÁRIO PESSOAL / LOG ──
 │   ├── retro/                         # retrospectivas
 │   └── journaling-templates/
 ---------
-├── 15-languages/                      # ── IDIOMAS FALADOS (POLIGLOTA) ──
+├── languages/                      # ── IDIOMAS FALADOS (POLIGLOTA) ──
 │   ├── README.md
 │   ├── portugues/
 │   ├── ingles/
@@ -155,7 +156,7 @@ diary/                          # ── DIÁRIO PESSOAL / LOG ──
 │
 
 ---------
-├── 11-databases/                      # ── BANCO DE DADOS ──
+├── databases/                      # ── BANCO DE DADOS ──
 │   ├── mysql/
 │   ├── postgresql/
 │   ├── mongodb/
@@ -177,7 +178,7 @@ for-recruiters/                 # ── PARA RECRUTADOR ──
 │   ├── availability.md                # disponibilidade p/ estágio/júnior
 │   └── contact.md
 ---------
-├── 00-identity/                       # ── QUEM VOCÊ É ──
+├── identity/                       # ── QUEM VOCÊ É ──
 │   ├── README.md                      # bio multilíngue
 │   ├── cv/                            # currículo por idioma/versão
 │   │   ├── pt-BR/
