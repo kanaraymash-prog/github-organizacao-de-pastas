@@ -1,15 +1,6 @@
 # github-organizacao-de-pastas
 
-
-
-
-
-
-
-
 Parte com as atividades da faculdade(s) e cursos de formação, bootcamps, monitorias e etc:
-
-
 
 --------
 academics/                # Geral academics topics
@@ -30,8 +21,6 @@ academics/                # Geral academics topics
                                     gnu-linux/
                                     devsecops/
 ---------
-
-
 
 ├── practice/                       # Estudos livres e treino técnico (antigo "activities")
 │   └── programming/                # Área de programação
